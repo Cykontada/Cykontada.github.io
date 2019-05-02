@@ -65,8 +65,13 @@ a.download img {
 }
 h1 {
 	color: #FFFFFF;
-	text-align: Left;
-	font-family: Corbel;
-	font-size: 40px;
-	text-shadow: black 0 0 1px;
+	text-align: center;
+	padding-top: 230px;
+	font-size: 60px;
+	font-family: arial;
+	font-weight: 400;
+	text-shadow: #383838 0 0 3px,
+			 	 #fff -1px -1px 1px, 
+             	 #333 2px 2px 0;
+    font-weight: bolder;
 }
