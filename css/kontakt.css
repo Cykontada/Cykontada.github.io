@@ -70,21 +70,25 @@ a.download img {
 .discord {
 	height: 150px;
 	width: 150px;
+	position: absolute;
 }
 
 .vks{
 	height: 150px;
 	width: 150px;
+	position: absolute;
 }
 
 .vkd {
 	height: 150px;
 	width: 150px;
+	position: absolute;
 }
 
 .vkg {
 	height: 150px;
 	width: 150px;
+	position: absolute;
 }
 .dis {
 	color: #FFFFFF;
