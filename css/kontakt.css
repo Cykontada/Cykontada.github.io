@@ -71,24 +71,28 @@ a.download img {
 	height: 150px;
 	width: 150px;
 	position: absolute;
+	left: 10px;
 }
 
 .vks{
 	height: 150px;
 	width: 150px;
 	position: absolute;
+	left: 380px;
 }
 
 .vkd {
 	height: 150px;
 	width: 150px;
 	position: absolute;
+	left: 560px;
 }
 
 .vkg {
 	height: 150px;
 	width: 150px;
 	position: absolute;
+	left: 200px;
 }
 .dis {
 	color: #FFFFFF;
