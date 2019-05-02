@@ -1,0 +1,175 @@
+body {
+background: url(image/install.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#menu {
+	width: 100%;
+	height: 80px;
+	border-bottom: 5px solid black;
+	background-color: #2E3233;
+}
+#menu ul{
+	padding: 0;
+	margin: 0 auto;
+	width: 80%;
+}
+#menu li{
+	display: inline-block;
+	list-style-type: none;
+	width: 24%;
+	text-align: center;
+	height: 48px;
+	padding-top: 18px;
+	font-family: fantasy;
+
+}
+#menu a{
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+}
+#menu a:hover {
+	color: #ff6666;
+	transition: all 0.5s;
+}
+a.mylink:hover img {
+	transition: all 0.5s;
+	width: 0%;
+	height: 0px;
+}
+a.mylink img {
+	width: 15%;
+	height: 40px;
+}
+.mods:hover img {
+	transition: all 0.5s;
+	width: 0%;
+	height: 0px;
+}
+a.mods img {	
+	width: 10%;
+	height: 40px;
+}
+.download:hover img {
+	transition: all 0.5s;
+	width: 0%;
+	height: 0px;
+}
+a.download img {	
+	width: 10%;
+	height: 30px;
+}
+h1 {
+	color: #FFFFFF;
+	text-align: left;
+	font-family: Corbel;
+	font-size: 50px;
+	text-shadow: black 0 0 1px;
+}
+.tlauncher {
+	width: 5%;
+	position: absolute;
+	left: 1080px;
+	top: -10px;
+}
+.tlauncher1 {
+	width: 30%;
+	position: absolute;
+	left: 1280px;
+	top: -120px;
+}
+.mine {
+	width: 30%;
+	position: absolute;
+	left: 1280px;
+	top: -200px;
+}
+.google {
+	width: 5%;
+	position: absolute;
+	left: 870px;
+	top: 280px;
+}
+.gogl {
+	width: 30%;
+	position: absolute;
+	left: 1280px;
+	top: -235px;
+}
+.mod {
+	width: 30%;
+	position: absolute;
+	left: 1280px;
+	top: -283px;
+}
+.inst{
+	width: 30%;
+	position: absolute;
+	left: 1280px;
+	top: -330px;
+}
+.a1 {
+	color: #FFFFFF;
+	text-align: left;
+	font-family: Corbel;
+	font-size: 50px;
+	text-shadow: black 0 0 1px;
+	position: absolute;
+	left: 1240px;
+	top: 50px;
+}
+.a2 {
+	color: #FFFFFF;
+	text-align: left;
+	font-family: Corbel;
+	font-size: 50px;
+	text-shadow: black 0 0 1px;
+	position: absolute;
+	left: 1240px;
+	top: 400px;
+}
+.a3 {
+	color: #FFFFFF;
+	text-align: left;
+	font-family: Corbel;
+	font-size: 50px;
+	text-shadow: black 0 0 1px;
+	position: absolute;
+	left: 1240px;
+	top: 770px;
+}
+.a4 {
+	color: #FFFFFF;
+	text-align: left;
+	font-family: Corbel;
+	font-size: 50px;
+	text-shadow: black 0 0 1px;
+	position: absolute;
+	left: 1240px;
+	top: 1125px;
+}
+.a5 {
+	color: #FFFFFF;
+	text-align: left;
+	font-family: Corbel;
+	font-size: 50px;
+	text-shadow: black 0 0 1px;
+	position: absolute;
+	left: 1240px;
+	top: 1500px;
+}
+.b2 {
+	padding-top: 330px;
+}
+.b3 {
+	padding-top: 300px;
+}
+.b4 {
+	padding-top: 300px;
+}
+.b5 {
+	padding-top: 300px;
+}

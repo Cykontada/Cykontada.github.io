@@ -1,0 +1,151 @@
+body {
+background-image: url(image/kontakt.jpg);
+background-attachment: fixed topmarign="0";
+}
+#menu {
+	width: 100%;
+	height: 80px;
+	border-bottom: 5px solid black;
+	background-color: #2E3233;
+}
+#menu ul{
+	padding: 0;
+	margin: 0 auto;
+	width: 80%;
+}
+#menu li{
+	display: inline-block;
+	list-style-type: none;
+	width: 24%;
+	text-align: center;
+	height: 48px;
+	padding-top: 18px;
+	font-family: fantasy;
+
+}
+#menu a{
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+}
+#menu a:hover {
+	color: #ff6666;
+	transition: all 0.5s;
+}
+a.mylink:hover img {
+	transition: all 0.5s;
+	width: 0%;
+	height: 0px;
+}
+a.mylink img {
+	width: 15%;
+	height: 40px;
+}
+.mods:hover img {
+	transition: all 0.5s;
+	width: 0%;
+	height: 0px;
+}
+a.mods img {	
+	width: 10%;
+	height: 40px;
+}
+.download:hover img {
+	transition: all 0.5s;
+	width: 0%;
+	height: 0px;
+}
+a.download img {	
+	width: 10%;
+	height: 30px;
+}
+.icon {
+	position: fixed;
+	left: 600px;
+	top: 500px;
+	letter-spacing: 2em;
+
+}
+
+.discord {
+	height: 150px;
+	width: 150px;
+}
+
+.vks{
+	height: 150px;
+	width: 150px;
+}
+
+.vkd {
+	height: 150px;
+	width: 150px;
+}
+
+.vkg {
+	height: 150px;
+	width: 150px;
+}
+.dis {
+	color: #FFFFFF;
+	font-family: Corbel;
+	font-size: 30px;
+	text-shadow: black 0 0 1px;
+	position: fixed;
+	left: 560px;
+	top: 530px;
+}
+.vk1 {
+	color: #FFFFFF;
+	font-family: Corbel;
+	font-size: 30px;
+	text-shadow: black 0 0 1px;
+	position: fixed;
+	left: 800px;
+	top: 530px;	
+}
+.vk2 {
+	color: #FFFFFF;
+	font-family: Corbel;
+	font-size: 30px;
+	text-shadow: black 0 0 1px;
+	position: fixed;
+	left: 980px;
+	top: 530px;
+}
+.vk3 {
+	color: #FFFFFF;
+	font-family: Corbel;
+	font-size: 30px;
+	text-shadow: black 0 0 1px;
+	position: fixed;
+	left: 1170px;
+	top: 530px;
+}
+.golem {
+	position: fixed;
+	left: 1680px;
+	top: 590px;
+}
+.table {
+	width: 210px;
+	position: absolute;
+	left: 1500px;
+	top: 700px;
+}		
+.tabl {
+	color: #FFFFFF;
+	font-family: Corbel;
+	font-size: 21px;
+	text-shadow: black 0 0 1px;
+	transform: rotate(26deg);
+	position: fixed;
+	left: 1540px;
+	top: 745px;
+}
+.tabl:hover {
+	color: #FF4900;
+	text-shadow: #383838 0 0 1px,
+			 	 #FF0000 -0.5px -0.5px 1px, 
+             	 #FF0000 1px 1px 0;
+}
