@@ -19,7 +19,7 @@ background-attachment: fixed topmarign="0";
 	width: 24%;
 	text-align: center;
 	height: 48px;
-	padding-top: 18%;
+	padding-top: 18px;
 	font-family: fantasy;
 
 }
@@ -35,37 +35,37 @@ background-attachment: fixed topmarign="0";
 a.mylink:hover img {
 	transition: all 0.5s;
 	width: 0%;
-	height: 0%;
+	height: 0px;
 }
 a.mylink img {
 	width: 15%;
-	height: 40%;
+	height: 40px;
 }
 .mods:hover img {
 	transition: all 0.5s;
 	width: 0%;
-	height: 0%;
+	height: 0px;
 }
 a.mods img {	
 	width: 10%;
-	height: 40%;
+	height: 40px;
 }
 .download:hover img {
 	transition: all 0.5s;
 	width: 0%;
-	height: 0%;
+	height: 0px;
 }
 a.download img {	
 	width: 10%;
-	height: 30%;
+	height: 30px;
 }
 p {
 	color: #FFFFFF;
 	text-align: center;
-	padding-top: 230%;
+	padding-top: 230px;
 	font-size: 60%;
 	font-family: arial;
-	font-weight: 400;
+	font-weight: 400%;
 	text-shadow: #383838 0 0 3%,
 			 	 #fff -1% -1% 1%, 
              	 #333 2% 2% 0;
