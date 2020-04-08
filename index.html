@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252" charset="utf-8">
+		<title>Енчик гей</title>
+		<script type="text/javascript" async="" src="./EVERY DAY I&#39;M_files/ga.js.&#1041;&#1077;&#1079; &#1085;&#1072;&#1079;&#1074;&#1072;&#1085;&#1080;&#1103;"></script><script src="./EVERY DAY I&#39;M_files/jquery.min.js.&#1041;&#1077;&#1079; &#1085;&#1072;&#1079;&#1074;&#1072;&#1085;&#1080;&#1103;" type="text/javascript" style="color: rgb(0, 0, 0);"></script>
+		<script src="./EVERY DAY I&#39;M_files/jquery.animate-colors.js.&#1041;&#1077;&#1079; &#1085;&#1072;&#1079;&#1074;&#1072;&#1085;&#1080;&#1103;" type="text/javascript"></script>
+		<script src="./EVERY DAY I&#39;M_files/jquery-ui.js.&#1041;&#1077;&#1079; &#1085;&#1072;&#1079;&#1074;&#1072;&#1085;&#1080;&#1103;" type="text/javascript"></script>
+		<link href="./EVERY DAY I&#39;M_files/css" rel="stylesheet" type="text/css">
+		<script type="text/javascript">			
+			$(document).ready(function(){
+				blink();
+			})
+					
+			function blink(){
+			$(".container")
+				.animate({backgroundColor: '#FF0000'}, 150)
+				.animate({backgroundColor: '#FF9500'}, 150)
+				.animate({backgroundColor: '#FFD200'}, 150)
+				.animate({backgroundColor: '#74E600'}, 150)
+				.animate({backgroundColor: '#1049A9'}, 150)
+				.animate({backgroundColor: '#4212AF'}, 150)
+				.animate({backgroundColor: '#A600A6'}, 150, function(){blink()});
+			}
+
+			
+			function hideWhite(){
+				var audio = $(".hustle")[0];
+				audio.addEventListener('ended', function(){this.currentTime = 0;}, false);
+				$(".white").fadeOut("fast");
+				audio.play();
+			}
+		</script>
+		
+		
+		
+		
+		<style type="text/css">
+			body {
+				margin: 0;
+				padding: 0;
+				font-family: Helvetica;
+				color: #fff;
+				overflow: hidden;
+			}
+			
+			.container{
+				position: fixed; 
+				width: 100%; 
+				height: 100%;
+				top: 0px;
+				left: 0px;
+				background-color: white;
+				display: block;
+				z-index: 100;
+			}	
+			
+					
+			.type{
+				position: fixed; 
+				width: 550px;
+				left: 50%;
+				top: 35%;
+				font-weight: 600;
+				margin-left: -275px;
+				text-align: center;
+				color: white;
+				font-family: 'Bowlby One SC', 'Helvetica', sans-serif;
+				font-size: 100px;
+				line-height: 70px;
+				z-index: 1000000000000;
+			}
+		</style>
+		
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28903212-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</head>
+	<body>
+		<div class="container" style="background-color: rgb(43, 116, 122);"></div>
+		<div class="white" style="display: block;"></div>
+		<a class="type" onmouseover="hideWhite();" onmouseout="showWhite();">Енчик Гей</a>
+		<audio class="hustle" preload="" loop=""> 
+ 			<source src="11.mp3">
+		</audio>
+	
+<!----></body></html>
